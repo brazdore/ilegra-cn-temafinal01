@@ -30,7 +30,7 @@
     },
     {
       "type": "file",
-      "source": "/var/lib/jenkins/workspace/job02-infrastructure/job01-build/build/libs/ilegra-cn-temafinal01.war",
+      "source": "/var/lib/jenkins/workspace/job02-infrastructure/job01/build/libs/ilegra-cn-temafinal01.war",
       "destination": "/apache-tomcat-9.0.55/webapps/ilegra-cn-temafinal01.war"
     }
   ],
