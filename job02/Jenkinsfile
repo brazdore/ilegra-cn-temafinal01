@@ -15,7 +15,7 @@ pipeline {
                     spec: """{
                         "files": [
                             {
-                                "pattern": "brazdore/ilegra-cn-temafinal01.war",
+                                "pattern": "ilegra-cn-temafinal01/ilegra-cn-temafinal01.war",
                                 "target": "job01/build/libs/ilegra-cn-temafinal01.war"
                             }
                         ]
