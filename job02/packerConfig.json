@@ -1,8 +1,8 @@
 {
   "variables": {
-    "dockerhub_repository":"",
+    "dockerhub_repository_name":"",
     "dockerhub_username":"",
-    "dockerhub_password":""
+    "dockerhub_user_password":""
   },
 
   "builders": [
@@ -39,14 +39,14 @@
     [
       {
         "type": "docker-tag",
-        "repository": "{{user `dockerhub_repository`}}",
+        "repository": "{{user `dockerhub_repository_name`}}",
         "tags": "temafinal01"
       },
       {
         "type": "docker-push",
         "login": true,
         "login_username":"{{user `dockerhub_username`}}",
-        "login_password":"{{user `dockerhub_password`}}"
+        "login_password":"{{user `dockerhub_user_password`}}"
       }
     ]
   ]
