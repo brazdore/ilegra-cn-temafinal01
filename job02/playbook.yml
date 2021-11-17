@@ -1,5 +1,5 @@
 ---
-- name: install tomcat server
+- name: Install Tomcat Server
   hosts: all
   become: true
 
